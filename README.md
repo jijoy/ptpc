@@ -9,11 +9,12 @@ Ptpc is little python tool for teams that like to assign stories up front. It lo
 ## How to use it
 
 1. Install Virtualenv
-
-`curl -O https://pypi.python.org/packages/source/v/virtualenv/virtualenv-X.X.tar.gz
+```
+curl -O https://pypi.python.org/packages/source/v/virtualenv/virtualenv-X.X.tar.gz
 tar xvfz virtualenv-X.X.tar.gz
 cd virtualenv-X.X
-[sudo] python setup.py install`
+[sudo] python setup.py install
+```
 
 1. Clone this repo
 
