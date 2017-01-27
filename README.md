@@ -9,59 +9,60 @@ Ptpc is little python tool for teams that like to assign stories up front. It lo
 ## How to use it
 
 1. Install Virtualenv
-```
-curl -O https://pypi.python.org/packages/source/v/virtualenv/virtualenv-X.X.tar.gz
-tar xvfz virtualenv-X.X.tar.gz
-cd virtualenv-X.X
-[sudo] python setup.py install
-```
+
+  ```
+  curl -O https://pypi.python.org/packages/source/v/virtualenv/virtualenv-X.X.tar.gz
+  tar xvfz virtualenv-X.X.tar.gz
+  cd virtualenv-X.X
+  [sudo] python setup.py install
+  ```
 
 2. Clone this repo
 
-`git clone git@github.com:jijoy/ptpc.git`
+  `git clone git@github.com:jijoy/ptpc.git`
 
 3. Change directories into
 
-`cd ptpc`
+  `cd ptpc`
 
 4. Create a virtual environment
 
-`virtualenv .`
+  `virtualenv .`
 
 5. Turn on the virtual environment
 
-`source bin/activate`
+  `source bin/activate`
 
 6. Install requirements
 
-`pip install -r requirements.txt`
+  `pip install -r requirements.txt`
 
 7. Edit the config file
 
-`vim config.py`
+  `vim config.py`
 
 8. Modify as follows (note if you have [manual planning](https://www.pivotaltracker.com/blog/manual-planning-trackers-ui-api/) on or off).
 
-```
-API_KEY = '4567fdd394c2fcd24ebceb510c79d2d6'
-TRACKER_PROJECT = '1930322'
-USERS = ['REX','IV','DS','JD','JC','JW','BS']
-MANUAL_PLANNING = False
-DEBUG = False
-```
+  ```
+  API_KEY = '4567fdd394c2fcd24ebceb510c79d2d6'
+  TRACKER_PROJECT = '1930322'
+  USERS = ['REX','IV','DS','JD','JC','JW','BS']
+  MANUAL_PLANNING = False
+  DEBUG = False
+  ```
 
 9. Run the script!
 
-```
-python ptpc.py
+  ```
+  python ptpc.py
 
-User      Points
-------  --------
-rex            1
-JW             0
-DS             3
-BS            14
-```
+  User      Points
+  ------  --------
+  rex            1
+  JW             0
+  DS             3
+  BS            14
+  ```
 
 
 
