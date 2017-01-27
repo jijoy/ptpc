@@ -2,7 +2,7 @@
 
 ## Overview
 
-Some scrum teams like to assign stories during sprint planning to be fair make sure everyone has an equal load. Other teams just assign as they pick stories up.
+Some agile teams like to assign stories during sprint planning. They want to be fair - and make sure everyone has an equal load. Other teams just assign stories as they pick them up. There's no one way to do it.
 
 Ptpc is little python tool for teams that like to assign stories up front. It looks at how many points each team member has assigned for upcoming stories. We don't want to see things people have started working on yet, only things that are assigned, unstarted and in the backlog.
 
