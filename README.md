@@ -16,31 +16,31 @@ cd virtualenv-X.X
 [sudo] python setup.py install
 ```
 
-1. Clone this repo
+2. Clone this repo
 
 `git clone git@github.com:jijoy/ptpc.git`
 
-1. Change directories into
+3. Change directories into
 
 `cd ptpc`
 
-1. Create a virtual environment
+4. Create a virtual environment
 
 `virtualenv .`
 
-1. Turn on the virtual environment
+5. Turn on the virtual environment
 
 `source bin/activate`
 
-1. Install requirements
+6. Install requirements
 
 `pip install -r requirements.txt`
 
-1. Edit the config file
+7. Edit the config file
 
 `vim config.py`
 
-1. Modify as follows (note if you have [manual planning](https://www.pivotaltracker.com/blog/manual-planning-trackers-ui-api/) on or off).
+8. Modify as follows (note if you have [manual planning](https://www.pivotaltracker.com/blog/manual-planning-trackers-ui-api/) on or off).
 
 ```
 API_KEY = '4567fdd394c2fcd24ebceb510c79d2d6'
@@ -50,7 +50,7 @@ MANUAL_PLANNING = False
 DEBUG = False
 ```
 
-1. Run the script!
+9. Run the script!
 
 ```
 python ptpc.py
